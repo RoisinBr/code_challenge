@@ -1,5 +1,9 @@
 module Surveyor
   class RatingQuestion < Question
-    # your code goes here
+    
+    def valid_answer?(answer)
+      answer.instance_of? Integer
+    end
+
   end
 end
