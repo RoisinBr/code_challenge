@@ -1,4 +1,5 @@
 require "surveyor/question"
+require "surveyor/response"
 require "surveyor/free_text_question"
 require "surveyor/rating_question"
 require "surveyor/survey"
