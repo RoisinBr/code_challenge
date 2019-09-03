@@ -2,7 +2,7 @@ module Surveyor
   class RatingQuestion < Question
     
     def valid_answer?(answer)
-      answer.instance_of? Integer
+      answer > 0 && answer < 6 ? true : false
     end
 
   end
