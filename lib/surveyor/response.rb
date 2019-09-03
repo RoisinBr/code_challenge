@@ -5,6 +5,15 @@ module Surveyor
 
     def initialize(email)
       @email = email[:email]
+      @answers = []
+    end
+
+    def add_answer(answer)
+      @answers.push(answer)
+    end
+
+    def answers 
+      @answers
     end
     
   end
